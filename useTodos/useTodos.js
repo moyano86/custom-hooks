@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react"
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
   //para que el valor de todos no esté vacío cuando se renderiza el componente, recuperamos lo que hayamos guardado anteriormente en el localStorage (parse intenta convertir strign en objeto)
   //y se lo pasamos como variable al useReducer. Si no había nada que recuperar, pasamos un array vacío.
